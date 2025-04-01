@@ -971,7 +971,7 @@ endfunction " }}}
       if len(existing_stab) && existing_stab.expr
         let stab = substitute(stab, '<SID>\c', '<SNR>' . existing_stab.sid . '_', '')
         let stab = substitute(stab, '()$', '', '')
-        let s:ShiftTab = function(stab)
+        " let s:ShiftTab = function(stab)
         let stab = ''
       endif
     endif
